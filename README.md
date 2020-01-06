@@ -1,5 +1,5 @@
 # Automatic-cell-detection-using-machine-learning
-Predict the number of cells using deep learning
+Predict the number of cells using deep learning. This work is done as a part of interview process.
 
 There are three types of cells in the given image. Each image has three types of cells . This project aims to predict cell count for each type of cell using modified version of yolov3.
 
