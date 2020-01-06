@@ -56,7 +56,54 @@ optional arguments:
 
 
 
-Directly place the test images inside yolov3/data/samples and run the script
+# Step 1:
+place the test images inside yolov3/data/samples
+# Step 2:
+Run the script 
 # python3 detect.py
-or specify the location of test images using command line options and run the above script
+
+# Steps for training the image
+
+# Step 1
+# Creating the training dataset patches
+For creating the patches, run the script
+# python3 create_patches.py
+
+usage: create-patches.py [-h] [--input-folder INPUT_FOLDER]
+                         [--output-folder OUTPUT_FOLDER]
+                         [--patch-size PATCH_SIZE] [--num-patches NUM_PATCHES]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input-folder INPUT_FOLDER
+                        source
+  --output-folder OUTPUT_FOLDER
+                        output folder
+  --patch-size PATCH_SIZE
+                        inference size (pixels)
+  --num-patches NUM_PATCHES
+                        Number of patches to be extracted
+                        
+                        
+Before starting the script, put the training images inside folder Input/ or specify the input-folder location using command line options in the above script.
+
+# Step 2
+Annotation of patches
+I have used CVAT toolbox to annotate the training patches created from step 1.
+https://github.com/opencv/cvat
+Labels can be obtained using the above tool for training and validation.
+
+# Step 3
+Preparing data for training 
+Place training image inside data/train/images
+Place validation image inside data/valid/images
+Place training label inside data/train/labels
+Place validation label inside data/valid/labels
+
+                        
+                        
+  
+
+
+
 
