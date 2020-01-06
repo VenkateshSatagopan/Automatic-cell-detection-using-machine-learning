@@ -175,8 +175,23 @@ optional arguments:
 
 
                         
-                        
+
+# The training procedure and testing procedure is modified from the below standard yolov3 pytorch implementation
+
+https://github.com/ultralytics/yolov3
   
+Sample training and validation data placed inside the file locations
+
+![Train-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/yolov3/data/train)
+
+![Validation-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/yolov3/data/valid)
+
+
+Sample output of the test-samples (Manually annoted and machine learning output) placed inside the folder
+
+yolov3/data/samples
+
+
 
 
 
