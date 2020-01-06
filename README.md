@@ -190,10 +190,12 @@ Sample training and validation data placed inside the file locations
 Sample output of the test-samples (Manually annoted and machine learning output) placed inside the folder
 
 
-![Validation-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/tree/master/yolov3/data/samples/Sample-output-check)
+![Output of test-samples](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/tree/master/yolov3/data/samples/Sample-output-check)
 
 
+# Future work
 
+Reporting the image with the detected cell centers’ locations, ideally as an overlay on the original image. Currently working on to place the detected bounding box for each cell-type in the original image.
 
 
 
