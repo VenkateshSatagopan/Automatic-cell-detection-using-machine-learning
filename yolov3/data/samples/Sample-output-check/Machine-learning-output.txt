@@ -17,6 +17,10 @@ Patch 6 Output: Done. (0.119s)
 Total-class-count of class 0 is 24.0
 Total-class-count of class 1 is 30.0
 Total-class-count of class 2 is 26.0
+
+
+
+
 image 2/2 data/samples/black_bubbles_3.png: 
 Patch 1 Output: 5 class_0s, 4 class_1s, 3 class_2s, Done. (0.121s)
 
