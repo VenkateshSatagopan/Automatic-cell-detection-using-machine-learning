@@ -11,7 +11,7 @@ There are three types of cells in the given image. Each image has three types of
 ![Class-1](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/cell_type_1.png)
 
 # Cell-type 2
-![Class-0](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/cell_type_0.png)
+![Class-0](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/cell_type_2.png)
 
 
 The project aims to find number of each cell types from the image like shown below
