@@ -1,0 +1,6 @@
+data/valid/images/patch_1.png
+data/valid/images/patch_10.png
+data/valid/images/patch_12.png
+data/valid/images/patch_11.png
+data/valid/images/patch_14.png
+data/valid/images/patch_29.png

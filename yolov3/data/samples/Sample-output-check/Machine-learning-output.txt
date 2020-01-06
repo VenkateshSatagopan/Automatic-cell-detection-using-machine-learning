@@ -1,0 +1,54 @@
+(base) venkatesh@venkatesh-ThinkPad-E470:~/Desktop/Definiens/yolov3$ python3 detect.py --weights weights/last.pt
+Namespace(cfg='cfg/yolov3-tiny.cfg', classes=None, conf_thres=0.6, device='', fourcc='mp4v', half=False, img_size=416, iou_thres=0.5, names='data/class.names', output='output', save_txt=False, source='data/samples', split_images=False, view_img=False, weights='weights/last.pt')
+Using CPU
+
+image 1/2 data/samples/black_bubbles_2.png: 
+Patch 1 Output: 11 class_0s, 14 class_1s, 14 class_2s, Done. (0.135s)
+
+Patch 2 Output: 8 class_0s, 10 class_1s, 6 class_2s, Done. (0.121s)
+
+Patch 3 Output: 5 class_0s, 5 class_1s, 6 class_2s, Done. (0.108s)
+
+Patch 4 Output: Done. (0.097s)
+
+Patch 5 Output: 1 class_1s, Done. (0.100s)
+
+Patch 6 Output: Done. (0.119s)
+Total-class-count of class 0 is 24.0
+Total-class-count of class 1 is 30.0
+Total-class-count of class 2 is 26.0
+image 2/2 data/samples/black_bubbles_3.png: 
+Patch 1 Output: 5 class_0s, 4 class_1s, 3 class_2s, Done. (0.121s)
+
+Patch 2 Output: 25 class_0s, 27 class_1s, 20 class_2s, Done. (0.150s)
+
+Patch 3 Output: 1 class_0s, 9 class_1s, 3 class_2s, Done. (0.113s)
+
+Patch 4 Output: 9 class_0s, 8 class_1s, 8 class_2s, Done. (0.130s)
+
+Patch 5 Output: Done. (0.106s)
+
+Patch 6 Output: 6 class_0s, 6 class_1s, 6 class_2s, Done. (0.153s)
+
+Patch 7 Output: 6 class_0s, 6 class_1s, 10 class_2s, Done. (0.117s)
+
+Patch 8 Output: 3 class_0s, Done. (0.102s)
+
+Patch 9 Output: Done. (0.097s)
+
+Patch 10 Output: Done. (0.095s)
+
+Patch 11 Output: Done. (0.097s)
+
+Patch 12 Output: 1 class_1s, Done. (0.105s)
+
+Patch 13 Output: 1 class_1s, Done. (0.098s)
+
+Patch 14 Output: Done. (0.096s)
+
+Patch 15 Output: Done. (0.097s)
+Total-class-count of class 0 is 55.0
+Total-class-count of class 1 is 62.0
+Total-class-count of class 2 is 50.0
+(base) venkatesh@venkatesh-ThinkPad-E470:~/Desktop/Definiens/yolov3$ 
+

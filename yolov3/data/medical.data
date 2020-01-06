@@ -1,0 +1,4 @@
+classes=3
+train=data/medicalimage.txt
+valid=data/medicalimagevalidation.txt
+names=data/class.names
