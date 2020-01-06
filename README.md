@@ -182,14 +182,16 @@ https://github.com/ultralytics/yolov3
   
 Sample training and validation data placed inside the file locations
 
-![Train-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/yolov3/data/train)
+![Train-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/tree/master/yolov3/data/train)
 
-![Validation-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/blob/master/cell-types/yolov3/data/valid)
+![Validation-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/tree/master/yolov3/data/train)
 
 
 Sample output of the test-samples (Manually annoted and machine learning output) placed inside the folder
 
-yolov3/data/samples
+
+![Validation-data](https://github.com/VenkateshSatagopan/Automatic-cell-detection-using-machine-learning/tree/master/yolov3/data/samples/Sample-output-check)
+
 
 
 
