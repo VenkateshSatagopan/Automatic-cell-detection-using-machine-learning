@@ -99,15 +99,80 @@ Labels can be obtained using the above tool for training and validation.
 
 # Step 3
 
-Preparing data for training 
+# Preparing data for training 
 
-Place training image inside data/train/images
+1. Place training image inside yolov3/data/train/images
 
-Place validation image inside data/valid/images
+2. Place validation image inside yolov3/data/valid/images
 
-Place training label inside data/train/labels
+3. Place training label inside yolov3/data/train/labels
 
-Place validation label inside data/valid/labels
+4. Place validation label inside yolov3/data/valid/labels
+
+5. Create medicalimage.txt which contains file paths of all train images and place it in folder yolov3/data/
+
+6. Create medicalimagevalidation.txt which contains file paths of all validation images and place it in folder yolov3/data/
+
+7. Create class.names file in the location yolov3/data and add the class names like below
+class_0
+class_1
+class_2
+
+8. Create medical.data file with the below information
+
+classes=3 ( Specify number of classes present in the training dataset)
+
+train=data/medicalimage.txt
+
+valid=data/medicalimagevalidation.txt
+
+names=data/class.names
+
+# Starting the training
+
+Run the script 
+
+# python3 train.py 
+
+Default training happens for 100 epochs with batch-size 4
+
+if you would like to change those parameters using the below command line options
+
+
+usage: train.py [-h] [--epochs EPOCHS] [--batch-size BATCH_SIZE]
+                [--accumulate ACCUMULATE] [--cfg CFG] [--data DATA]
+                [--multi-scale] [--img-size IMG_SIZE] [--rect] [--resume]
+                [--transfer] [--nosave] [--notest] [--evolve]
+                [--bucket BUCKET] [--cache-images] [--weights WEIGHTS]
+                [--arc ARC] [--prebias] [--name NAME] [--device DEVICE]
+                [--adam] [--var VAR]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --epochs EPOCHS
+  --batch-size BATCH_SIZE
+  --accumulate ACCUMULATE
+                        batches to accumulate before optimizing
+  --cfg CFG             *.cfg path
+  --data DATA           *.data path
+  --multi-scale         adjust (67%) img_size every 10 batches
+  --img-size IMG_SIZE   inference size (pixels)
+  --rect                rectangular training
+  --resume              resume training from last.pt
+  --transfer            transfer learning
+  --nosave              only save final checkpoint
+  --notest              only test final epoch
+  --evolve              evolve hyperparameters
+  --bucket BUCKET       gsutil bucket
+  --cache-images        cache images for faster training
+  --weights WEIGHTS     initial weights
+  --arc ARC             yolo architecture
+  --prebias             transfer-learn yolo biases prior to training
+  --name NAME           renames results.txt to results_name.txt if supplied
+  --device DEVICE       device id (i.e. 0 or 0,1 or cpu)
+  --adam                use adam optimizer
+  --var VAR             debug variable
+
 
                         
                         
