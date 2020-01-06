@@ -85,19 +85,28 @@ optional arguments:
                         Number of patches to be extracted
                         
                         
+
 Before starting the script, put the training images inside folder Input/ or specify the input-folder location using command line options in the above script.
 
 # Step 2
-Annotation of patches
+
+For annotation of patches
+
 I have used CVAT toolbox to annotate the training patches created from step 1.
 https://github.com/opencv/cvat
+
 Labels can be obtained using the above tool for training and validation.
 
 # Step 3
+
 Preparing data for training 
+
 Place training image inside data/train/images
+
 Place validation image inside data/valid/images
+
 Place training label inside data/train/labels
+
 Place validation label inside data/valid/labels
 
                         
